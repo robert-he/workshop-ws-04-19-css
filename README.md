@@ -89,6 +89,13 @@ Let’s add bootstrap to your website using a Content Delivery Network (CDN). Li
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 ```
+Also, to make your dropdown and carousels work, add the following at the top of your body segment.
+```html
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+```
+
 Note: You can also download Bootstrap and use a local version if you want. Checkout the Bootstrap documentation [here](https://getbootstrap.com/docs/4.3/getting-started/introduction/) for more information.
 
 Finally, let’s also link to our personal stylesheet in the head. Make sure you put this note below the link to the Bootstrap stylesheet. (Any ideas on why this might be better than linking it above Bootstap? See Customization section!)
